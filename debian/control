@@ -1,0 +1,12 @@
+Source: ros-noetic-ros-mscl-py-example
+Section: misc
+Priority: optional
+Maintainer: mgill <melissa_gill@lord.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Homepage: https://github.com/LORD-MicroStrain/ROS-MSCL
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ros-mscl-py-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Description: Example listener for Parker LORD Sensing inertial device driver ros_mscl (Python).
